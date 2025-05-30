@@ -25,7 +25,7 @@ This guide explains how to block inbound Telnet connections on port 23 using Win
 ### 2. Create a New Inbound Rule
 - In the left pane, click **Inbound Rules**  
 - In the right pane, click **New Rule...**
-- ![click telnet](images/click%20/inbound.png)
+- ![click telnet](images/click%20inbound.png)
 
 ### 3. Select Rule Type
 - Select **Port** and click **Next**
@@ -70,15 +70,15 @@ This guide explains how to block inbound Telnet connections on port 23 using Win
 ### install uwf 
 - `sudo apt install ufw`
 ### set up the uwf for allow you can use 
-- `sudo ufw allow 22/tcp
+- `sudo ufw allow 22/tcp`
 ### set up the uwf for deny you can use
-- `sudo ufw deny 22/tcp
+- `sudo ufw deny 22/tcp`
 ### start the ssh service in kali linux usign this command
 - `sudo systemctl start ssh`
 
 #### to test this you can use localhost or any remote here am use git bash
 ## screenshot during the test
 - before deny ssh
-- ![before](images/before%20/beny%20/ssh.png)
+- ![before](images/before%20beny%20ssh.png)
 - after allow ssh
-- ![after](images/after%20/allow%20/ssh.png)
+- ![after](images/after%20allow%20ssh.png)
