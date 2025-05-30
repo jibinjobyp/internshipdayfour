@@ -64,3 +64,21 @@ This guide explains how to block inbound Telnet connections on port 23 using Win
 - successfull blocked
 - ![blocked](images/telnet.png)
 
+---
+## testing ssh port usign linux ufw on port 22
+
+### install uwf 
+- `sudo apt install ufw`
+### set up the uwf for allow you can use 
+- `sudo ufw allow 22/tcp
+### set up the uwf for deny you can use
+- `sudo ufw deny 22/tcp
+### start the ssh service in kali linux usign this command
+- `sudo systemctl start ssh`
+
+#### to test this you can use localhost or any remote here am use git bash
+## screenshot during the test
+- before deny ssh
+- ![before](images/before%20/beny%20/ssh.png)
+- after allow ssh
+- ![after](images/after%20/allow%20/ssh.png)
