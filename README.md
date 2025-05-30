@@ -60,5 +60,7 @@ This guide explains how to block inbound Telnet connections on port 23 using Win
 
 ## Testing the Rule
 
-- From another machine (e.g., Kali Linux), run: `telnet <target-ip> 23`   
+- From another machine (e.g., Kali Linux), run: `telnet <target-ip> 23`
+- successfull blocked
+- ![blocked](images/telnet.png)
 
