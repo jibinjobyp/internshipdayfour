@@ -12,6 +12,8 @@
 
 This guide explains how to block inbound Telnet connections on port 23 using Windows Firewall with Advanced Security.
 
+- to list current rule in windows `netsh advfirewall firewall show rule name=all`
+
 ---
 
 ## Steps to Block Telnet Port 23
