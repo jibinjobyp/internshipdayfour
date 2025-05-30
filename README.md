@@ -10,6 +10,15 @@
 ## 👣 step i do for set up firewall to block telnet inbound
 
 
+### first just list current rules in my machine using cmd by this command
+-`netsh advfirewall firewall show rule name=all` 
+- ![list](images/list%20curreny%20rule%20in%20windows.png)
+
+### without gui set up rule using cmd 
+- `netsh advfirewall firewall add rule name="Block Telnet" protocol=TCP dir=in localport=23 action=block` its for block.
+-  `netsh advfirewall firewall add rule name="Allow Telnet" protocol=TCP dir=in localport=23 action=allow` its for allow 
+
+
 This guide explains how to block inbound Telnet connections on port 23 using Windows Firewall with Advanced Security.
 
 ---
