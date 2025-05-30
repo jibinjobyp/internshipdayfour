@@ -19,7 +19,8 @@ This guide explains how to block inbound Telnet connections on port 23 using Win
 ### 1. Open Windows Firewall with Advanced Security
 - Press `Win + R`, type `wf.msc`, and press **Enter** -
 - Opens the Windows Defender Firewall with Advanced Security console.
-- ![firewall tab](images/firewall first page.png)
+- ![firewall tab](images/firewall%20first%20page.png)
+
 
 ### 2. Create a New Inbound Rule
 - In the left pane, click **Inbound Rules**  
