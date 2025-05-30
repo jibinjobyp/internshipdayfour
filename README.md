@@ -25,21 +25,27 @@ This guide explains how to block inbound Telnet connections on port 23 using Win
 ### 2. Create a New Inbound Rule
 - In the left pane, click **Inbound Rules**  
 - In the right pane, click **New Rule...**
+- ![click telnet](images/click%20/inbound.png)
 
 ### 3. Select Rule Type
 - Select **Port** and click **Next**
 
+
 ### 4. Specify Ports
 - Select **TCP**  
-- Choose **Specific local ports:** and enter `23`  
+- Choose **Specific local ports:** and enter `23`
+- ![port set up](images/add%20rule.png)
 - Click **Next**
+- 
 
 ### 5. Choose Action
-- Select **Block the connection**  
+- Select **Block the connection**
+- ![block](images/block%20telnet.png)  
 - Click **Next**
 
 ### 6. Choose Profile
-- Check all: **Domain**, **Private**, **Public**  
+- Check all: **Domain**, **Private**, **Public**
+- ![profile](images/profile.png)  
 - Click **Next**
 
 ### 7. Name the Rule
@@ -49,6 +55,7 @@ This guide explains how to block inbound Telnet connections on port 23 using Win
 ---
 ## note this 
 - start a listener in windows  `ncat.exe -l -p 23 -v`
+- 
 
 
 ## Testing the Rule
